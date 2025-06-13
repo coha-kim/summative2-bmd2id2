@@ -1,8 +1,8 @@
 let font;
-let fontSize = 300;
+let fontSize = 700;
 let textStr = 'flow';
-let textX = 20, textY = 500;
-let lines = 180;
+let textX = 350, textY = 800;
+let lines = 500;
 let maskG;
 
 function preload() {
@@ -10,7 +10,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 800);
+  createCanvas(1686, 2384);
   colorMode(HSB, 360, 100, 100, 100);
 
   // Create mask for text area
